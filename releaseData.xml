@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Jonathon J. Valente</origin>
+        <origin>Lindsay J. Adrean</origin>
+        <origin>S. Kim Nelson</origin>
+        <origin>Matthew G. Betts</origin>
+        <origin>Daniel D. Roby</origin>
+        <origin>James W. Rivers</origin>
+        <pubdate>20240630</pubdate>
+        <title>Occupancy surveys near Marbled Murrelet (Brachyramphus marmoratus) nest sites and random locations between 2018 and 2022 along the central Oregon coast, USA</title>
+        <geoform>publication</geoform>
+        <onlink>https://doi.org/10.5066/xxxxxxxx</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>There are four data tables provided here which are formatted according to tidy data principles. We identified sites centered on known murrelet nest trees and on random locations and the first table contains variables that vary at the site level. Each site had up to three stations where occupancy surveys were collected, so the second table contains variables varying at the station level. Each station was surveyed multiple times, and the third table contains variables varying at the survey level. Lastly, we had a camera trained on the nests at our active nest sites and the fourth table contains one row for every recorded action taken by an adult or nestling.</abstract>
+      <purpose>These data were collected to test whether presence-absence surveys can aid in the identification of nesting sites for the Marbled Murrelet (Brachyramphus marmoratus), a threatened seabird that nests in older-aged forests along the Pacific Coast. </purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20180501</begdate>
+          <enddate>20220816</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>Central coast of Oregon</descgeog>
+      <bounding>
+        <westbc>-125.3320</westbc>
+        <eastbc>-123.0469</eastbc>
+        <northbc>45.6448</northbc>
+        <southbc>42.3261</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Marbled Murrelet</themekey>
+        <themekey>Brachyramphus marmoratus</themekey>
+        <themekey>Endangered species</themekey>
+        <themekey>Oregon Coast Range</themekey>
+        <themekey>Cryptic species</themekey>
+        <themekey>Presence-absence survey</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Oregon Coast Range</placekey>
+      </place>
+    </keywords>
+    <accconst>None.  Please see 'Distribution Info' for details.</accconst>
+    <useconst>None.  Users are advised to read the dataset's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jonathon J. Valente</cntper>
+          <cntorg>USGS Alabama Cooperative Fish &amp; Wildlife Research Unit</cntorg>
+        </cntperp>
+        <cntpos>Assistant Unit Leader</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Auburn Unviersity</address>
+          <city>Auburn</city>
+          <state>Alabama</state>
+          <postal>36849</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>334-844-9231</cntvoice>
+        <cntemail>jvalente@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Collection of these data was supported by the College of Forestry at Oregon State University and the USDA National Institute of Food and Agriculture, McIntire Stennis project #1014995.</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Data were predominantly collected in the field by trained observers and thus are accurate to the best of our knowledge.</attraccr>
+    </attracc>
+    <logic>Yes, the data match up with the details I have provided. All values fall within expected ranges, and have been checked for duplication/omission.</logic>
+    <complete>The data represent distribution information collected during the dates and times specified, and only along the central coast of Oregon.</complete>
+    <lineage>
+      <procstep>
+        <procdesc>We conducted this experiment as part of a larger study on breeding and movement ecology of the Marbled Murrelet along the central coast of Oregon, USA, centered on the city of Newport (N 44°38’12.42”, W 123°3’12.43”). In this region, murrelet breeding habitat is found in the late successional and old-growth forest of the Oregon Coast Range, across a diversity of ownerships. We collected data over the course of four murrelet breeding seasons, May - August of 2018, 2019, 2021, and 2022. In the early breeding season of each year (between April 21 and June 7), we captured murrelets at sea between Lincoln City, OR and Yachats, OR, fitted them with VHF radio-tags, and then tracked individuals to their inland nesting sites. This approach is preferable to searching for nests at inland sites because it provides an unbiased sample of nest locations because observers only search inland sites that are used by tagged individuals. We approximated locations of nests using telemetry receivers in fixed-wing aircraft, and pinpointed exact nest locations with ground-based visual surveys. Once we located a nest, we installed nest cameras with infrared capabilities in adjacent trees and recorded footage 24 h per day to monitor the presence of murrelets at the nest. Additional details regarding capture and tracking can be found in Garcia-Heras et al. (2024; https://doi.org/10.1016/j.gecco.2024.e02857), and all institutional, state, and federal permits were approved prior to field work.
+
+Our study consisted of nest and control sites; every site focused on a central tree surrounded by locations where we conducted Pacific Seabird Group (PSG)  protocol surveys. Every nest we found was used as a focal tree in a nest tree site unless the nest failed before we could complete at least one survey. We identified control sites from a randomized list of forest stands that had been deemed “occupied” by PSG protocol surveys in previous years. We only used “occupied” stands because our objective was to examine whether murrelet detections reflect proximity to a nest, conditional on murrelets being present within the stand. Stands where murrelets were not previously detected tend to remain unused and thus provide no useful information for answering that question. Although our control stands had been previously deemed occupied, their status in the year we surveyed them for this study was initially unknown.  Using aerial imagery, we randomly selected focal trees at these control sites that were &gt;25 m from an edge and contained large horizontal branches that could serve as potential murrelet nesting platforms. In the first year of the study, we chose control sites a priori, anticipating more nest sites than we ultimately found. Thus, there were more control sites than treatment sites that first year. In subsequent years we added control sites iteratively as we located nests, so that there was an equal number of control and nest sites in subsequent years.
+
+We established survey stations around each focal tree in our study at which to we conducted PSG protocol surveys. We placed one station at randomly selected locations in each of three distance bins around the focal tree: 0-67 m, 67-133 m, and 133-200 m; hereafter, we refer to individual survey locations as “stations” and a group of survey stations surrounding a focal tree as a “site”. We chose 200 m as a maximum distance because it coincides with previous observations of murrelets flying below the canopy for nearly 200 m when approaching or departing nest sites. Surveyors used random number tables to identify the initial distance and direction from the focal tree for each station, then followed the methods set in the PSG Survey Protocol to ensure stations contained at least a partial view of the sky and were located away from sources of noise (e.g., a loud stream) to maximize murrelet detectability; surveyors could move stations up to 50 m from the initial coordinates if necessary. At some sites we were unable to identify 3 locations that were suitable for a sampling station. Therefore, nest sites had a mean (SD) of 2.94 (0.24) sampling stations and control sites had a mean of 2.88 (0.43) sampling stations.
+
+We hired independent observers to conduct surveys at our stations. Surveyors were instructed to survey each station 4-5 times during the breeding season, and all surveyors were naïve as to which sites had nests. All surveys were conducted between 10 May and 25 August, and we only conducted surveys at nest sites while the nest remained active. Surveys followed the methods established in the Pacific Seabird Group’s inland survey protocol. In brief, surveys began 45 min prior to sunrise and concluded 75 min after sunrise, during which time observers recorded audio and visual murrelet detections. During surveys, observers recorded “occupancy” if they observed: a murrelet nest, egg or chick; or an adult landing in a tree, calling from a stationary position, flying below the canopy, or circling above the canopy. Observers recorded a murrelet as “present” if they observed other detection types that are less likely to be associated with breeding activity, including straight-line above-canopy flights, or an aural detection where the individual’s behavior was not observed. In the analyses described below, we analyzed occupancy and presence detections separately, but we considered murrelets present at any site where occupancy was recorded. 
+</procdesc>
+        <procdate>20240630</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>dataReleaseSite.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>Year the site was sampled</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2018</rdommin>
+            <rdommax>2022</rdommax>
+            <attrunit>Year integers</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SiteNum</attrlabl>
+        <attrdef>A unique identification number for the site.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><udom>Site values are formatted as (YY-#) where YY represents the last two digits of the sample year and the # is a unique site number.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+  <attrlabl>Treatment</attrlabl><attrdef>Indicator of whether the site was centered around a known nest tree or a randomly selected tree.</attrdef><attrdefs>Producer Defined</attrdefs><attrdomv>
+    <edom>
+      <edomv>nest</edomv>
+      <edomvd>Site centered on a known nest tree.</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>control</edomv>
+      <edomvd>Site centered on a random control tree.</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+        <attrlabl>NestInitiationDate</attrlabl>
+        <attrdef>Date on which the nest was initiated at sites centered on a known nest tree.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>Producer defined</edomvds>
+</edom>
+        </attrdomv>
+        <attrdomv><rdom>
+            <rdommin>2018-05-02</rdommin>
+            <rdommax>2022-06-24</rdommax>
+            <attrunit>Days</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FledgeFailDate</attrlabl>
+        <attrdef>Date on which the nest fledged or failed at sites centered on a known nest tree.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>Producer defined</edomvds>
+</edom>
+        </attrdomv>
+        <attrdomv><rdom>
+            <rdommin>2018-06-25</rdommin>
+            <rdommax>2022-08-16</rdommax>
+            <attrunit>Days</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>dataReleaseStation.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SiteNum</attrlabl>
+        <attrdef>A unique identification number for the site.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Site values are formatted as (YY-#) where YY represents the last two digits of the sample year and the # is a unique site number.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+  <attrlabl>StationNum</attrlabl><attrdef>Survey station distance from the focal tree represented as a category.</attrdef><attrdefs>Producer Defined</attrdefs><attrdomv>
+    <edom>
+      <edomv>A</edomv>
+      <edomvd>0-67 m from focal tree</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>B</edomv>
+      <edomvd>67-133 m from focal tree</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>C</edomv>
+      <edomvd>133-200 m from focal tree</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+        <attrlabl>Distance</attrlabl>
+        <attrdef>Distance (meters) from the focal tree to the survey station.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>3.0</rdommin>
+            <rdommax>212.57</rdommax>
+            <attrunit>Meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>dataReleaseSurvey.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SiteNum</attrlabl>
+        <attrdef>A unique identification number for the site</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Site values are formatted as (YY-#) where YY represents the last two digits of the sample year and the # is a unique site number.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+  <attrlabl>StationNum</attrlabl><attrdef>Survey station distance from the focal tree represented as a category.</attrdef><attrdefs>Producer Defined</attrdefs><attrdomv>
+    <edom>
+      <edomv>A</edomv>
+      <edomvd>0-67 m from focal tree</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>B</edomv>
+      <edomvd>67-133 m from focal tree</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>C</edomv>
+      <edomvd>133-200 m from focal tree</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+        <attrlabl>SurveyDate</attrlabl>
+        <attrdef>Date on which the survey of the station was conducted</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>2018-05-10</rdommin>
+            <rdommax>2022-08-16</rdommax>
+            <attrunit>Days</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TotDetections</attrlabl>
+        <attrdef>Number of unique murrelet detections during the survey</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0</rdommin>
+            <rdommax>152</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+  <attrlabl>SigBehavior</attrlabl><attrdef>Categorical indicator representing the strongest evidence for breeding activity recording during the survey</attrdef><attrdefs>Producer Defined</attrdefs><attrdomv>
+    <edom>
+      <edomv>1</edomv>
+      <edomvd>Nest observed</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>2</edomv>
+      <edomvd>Chick or egg observed</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>3</edomv>
+      <edomvd>Landing in the vicinity</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>4</edomv>
+      <edomvd>Calling from a stationary position</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>5A</edomv>
+      <edomvd>Below canopy behavior in murrelet habitat</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>5B</edomv>
+      <edomvd>Below canopy behavior in non-habitat</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>6A</edomv>
+      <edomvd>Circling above the stand</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>6B</edomv>
+      <edomvd>Circling above another stand</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>P</edomv>
+      <edomvd>Presence observed</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>N</edomv>
+      <edomvd>No murrelets recorded</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+        <attrlabl>SurveyStart</attrlabl>
+        <attrdef>Start time of the survey</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>270</rdommin>
+            <rdommax>382</rdommax>
+            <attrunit>Minutes since 12:00 am</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SurveyEnd</attrlabl>
+        <attrdef>End time of the survey</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>405</rdommin>
+            <rdommax>517</rdommax>
+            <attrunit>Minutes since 12:00 am</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Notes</attrlabl>
+        <attrdef>Notes recorded by the observer</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+  <edomv>NA</edomv>
+  <edomvd>No Data</edomvd>
+  <edomvds>Producer defined</edomvds>
+</edom>
+        </attrdomv>
+        <attrdomv><udom>Observers recorded notes on observed murrelet behavior where applicable or interesting, so there are no standard values here.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SurveyLength</attrlabl>
+        <attrdef>Total duration of the survey</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>66</rdommin>
+            <rdommax>211</rdommax>
+            <attrunit>Minutes</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>presence</attrlabl>
+        <attrdef>Indicator of whether murrelet presence was observed (0 = no, 1 = yes)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>occupied</attrlabl>
+        <attrdef>Indicator of whether murrelet occupancy was observed (0 = no, 1 = yes)</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>dataReleaseVideos.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing data.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SiteNum</attrlabl>
+        <attrdef>A unique identification number for the site</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <udom>Site values are formatted as (YY-#) where YY represents the last two digits of the sample year and the # is a unique site number.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+  <attrlabl>EventType</attrlabl><attrdef>Description of the activity recorded on video at the nest site at the noted event time</attrdef><attrdefs>Producer Defined</attrdefs><attrdomv>
+    <edom>
+      <edomv>Incubation</edomv>
+      <edomvd>Adult arrives or departs nest for purposes related to egg incubation</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Brooding</edomv>
+      <edomvd>Adult arrives or departs nest for purposes related to hatchling brooding</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Feeding</edomv>
+      <edomvd>Adult arrives at nest to feed juvenile</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>InferredFeeding</edomv>
+      <edomvd>Adult arrives for an inferred juvenile feeding (not explicitly observed)</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Fledge</edomv>
+      <edomvd>Young bird fledges the nest</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+  <attrdomv>
+    <edom>
+      <edomv>Visit</edomv>
+      <edomvd>Adult visits the nest for unobserved reasons</edomvd>
+      <edomvds>Producer defined</edomvds>
+    </edom>
+  </attrdomv>
+</attr>
+      <attr>
+        <attrlabl>eventTime</attrlabl>
+        <attrdef>Date and time when the event was observed on video</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv><rdom>
+            <rdommin>2017-08-15 06:37:59</rdommin>
+            <rdommax>2022-08-16 06:59:31.402</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform><digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt><onlinopt><computer><networka><networkr>https://doi.org/10.5066/xxxxxxxx</networkr></networka></computer></onlinopt></digtopt></digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20240630</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jonathon J. Valente</cntper>
+          <cntorg>USGS Alabama Cooperative Fish &amp; Wildlife Research Unit</cntorg>
+        </cntperp>
+        <cntpos>Assistant Unit Leader</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Auburn University</address>
+          <city>Auburn</city>
+          <state>Alabama</state>
+          <postal>36849</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>334-844-9231</cntvoice>
+        <cntemail>jvalente@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>
